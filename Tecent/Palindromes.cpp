@@ -40,12 +40,12 @@ int LcsLength(string str)
 	delete[] a;
 	return res;
 }
-int main()
-{
-	string str;
-	while (cin >> str)
-	{
-		cout << LcsLength(str) << endl;
-	}
-	return 0;
-}
+//int main()
+//{
+//	string str;
+//	while (cin >> str)
+//	{
+//		cout << LcsLength(str) << endl;
+//	}
+//	return 0;
+//}
